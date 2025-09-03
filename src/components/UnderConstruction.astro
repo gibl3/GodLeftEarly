@@ -1,0 +1,44 @@
+<style>
+  .scroll-wrapper {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .scroll-content {
+    display: inline-flex;
+    gap: 2rem; /* gap between repeated messages */
+    white-space: nowrap;
+    animation: scroll-x 15s linear infinite;
+  }
+
+  /* The seamless animation */
+  @keyframes scroll-x {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+</style>
+
+<div
+  class="fixed top-0 left-0 w-screen bg-pale-sun text-ube py-2 z-50 font-archivo font-semibold italic"
+>
+  <div class="scroll-wrapper">
+    <div class="scroll-content">
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+      <span>🚧 Under Construction 🚧</span>
+    </div>
+  </div>
+</div>

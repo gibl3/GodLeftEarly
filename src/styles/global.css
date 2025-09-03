@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ube: #78609e;
+  --color-blue-haze: #d8eff8;
+  --color-pale-sun: #f1d462;
+  --font-archivo: "Archivo", sans-serif;
+  --font-clash-display: "Clash Display", sans-serif;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/ClashDisplay-Variable.woff2") format("woff2");
+}
